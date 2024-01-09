@@ -1,0 +1,23 @@
+[
+{
+    "'image": "https://github.com/Gabrielsszz/Avisa-_website/blob/main/images/PROMO%C3%87OES.png?raw=true",
+    "tittle": "Promo banner",
+    "subTitle": "Banner de promoçoes com produtos" ,
+    "interval": 1500
+} ,
+
+{
+    "'image": "https://github.com/Gabrielsszz/Avisa-_website/blob/main/images/blackfriday.png?raw=true",
+    "tittle": "Black friday banner",
+    "subTitle": "Banner de black friday" ,
+    "interval": 500
+} ,
+
+{
+    "'image": "https://github.com/Gabrielsszz/Avisa-_website/blob/main/images/confira%20AS%20MELHORES%20promo%C3%A7%C3%B5es!.png?raw=true",
+    "tittle": "Melhores promos",
+    "subTitle": "Banner de melhores promos" ,
+    "interval": 2500
+} 
+
+]
