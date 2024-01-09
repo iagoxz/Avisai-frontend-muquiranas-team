@@ -13,7 +13,7 @@ export default function ActionAreaCard() {
   async function setProfilePosts() {
     try {
       const token = localStorage.getItem('token');
-      const response = await axios.get('http://localhost:3000/fav/favoritos', {
+      const response = await axios.get('https://api-avisaiback.vercel.app/fav/favoritos', {
         headers: token && { Authorization: `Bearer ${token}` },
       });
 

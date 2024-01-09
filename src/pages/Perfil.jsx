@@ -43,7 +43,7 @@ const ProfileScreen = () => {
     try {
       const token = localStorage.getItem('token');
 
-      const response = await axios.get('http://localhost:3000/admin/users', {
+      const response = await axios.get('https://api-avisaiback.vercel.app/admin/users', {
         headers: token && { Authorization: `Bearer ${token}` },
       });
 

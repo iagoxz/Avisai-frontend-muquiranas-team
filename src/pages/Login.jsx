@@ -40,7 +40,7 @@ const Login = () => {
   };
 
   const authenticateUserOnServer = async (email, password) => {
-    const response = await fetch("http://localhost:3000/auth/authenticate", {
+    const response = await fetch("https://api-avisaiback.vercel.app/auth/authenticate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -22,7 +22,7 @@ const Posts = () => {
       // Limit product name to 20 characters
       const truncatedProductName = productName.slice(0, 20);
 
-      const response = await axios.post("http://localhost:3000/post/postagem", {
+      const response = await axios.post("https://api-avisaiback.vercel.app/post/postagem", {
         userName,
         productName: truncatedProductName,
         productLink,
