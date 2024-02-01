@@ -42,6 +42,7 @@ Back-end:
 
 Front-end:
 * [React.js]
+* [Tailwind.css]
 
 ## Autores
 
